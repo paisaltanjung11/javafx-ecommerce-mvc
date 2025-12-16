@@ -1,6 +1,4 @@
-# 🛒 JoymarKet - Digital Marketplace
-
-A Java-based e-commerce application built using **MVC (Model-View-Controller)** architecture pattern. This application provides a complete marketplace solution with role-based access control for Customers, Admins, and Couriers.
+# A Java-based e-commerce application built using **MVC (Model-View-Controller)** architecture pattern. This application provides a complete marketplace solution with role-based access control for Customers, Admins, and Couriers.
 
 ---
 
@@ -371,17 +369,8 @@ After importing `seed_data.sql`, you can use these test accounts:
 - Email: `courier@gmail.com`
 - Password: `123456`
 
-### User Guide
-
-For detailed usage instructions, please refer to [USER_GUIDE.md](USER_GUIDE.md)
-
 ---
 
-## 👥 Contributors
-
-- **[Your Name]** - Initial work
-
----
 
 ## 📄 License
 
@@ -389,13 +378,6 @@ This project is created for educational purposes as a JavaFX e-commerce applicat
 
 ---
 
-## 📝 Additional Documentation
-
-- [USER_GUIDE.md](USER_GUIDE.md) - Detailed user manual
-- [Eclipse_Setup_Guide.md](Eclipse_Setup_Guide.md) - Complete setup instructions
-- [database/README.md](database/README.md) - Database setup guide
-
----
 
 ## 🐛 Troubleshooting
 
