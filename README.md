@@ -144,22 +144,22 @@ git clone https://github.com/paisaltanjung11/javafx-ecommerce-mvc
 
 ### Step 2: Database Setup
 
-1. **Start XAMPP MySQL**
+1. **Start MySQL**
 
    - Open XAMPP Control Panel
    - Click **Start** on MySQL service
 
-2. **Import Database Schema**
+2. **Import Database**
 
    - Open phpMyAdmin: `http://localhost/phpmyadmin`
-   - Go to **SQL** tab
-   - Copy contents of `database/schema.sql`
-   - Paste and execute
+   - Create a new database (e.g. `javafx_ecommerce`)
+   - Select the created database
+   - Go to the **Import** tab
+   - Upload and import the following file:
 
-3. **Import Seed Data** (Optional)
-   - In phpMyAdmin SQL tab
-   - Copy contents of `database/seed_data.sql`
-   - Paste and execute
+     ```
+     database/ooad.sql
+     ```
 
 > 📝 **Note**: Update database connection details in `src/model/DatabaseConnection.java` if needed:
 >
